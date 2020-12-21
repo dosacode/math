@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <dialog open class="modal">
+        <div id="level_btn">
+            <button type="button" data-level="1-1">かんたん</button>
+            <button type="button" data-level="1-11">ふつう</button>
+            <button type="button" data-level="11-11">むずかしい</button>
+        </div>
+        <div id="select_symbol">
+            <button>+</button>
+            <button>-</button>
+            <button>×</button>
+            <button>÷</button>
+        </div>
+
+        <div>
+            <button id="start_btn">start</button>
+        </div>
+    </dialog>
+
+    <main>
+        <section>
+            <div>
+                <span>
+                    <input type="text" id="max_number" class="number" disabled>
+                </span>
+                <span>
+                    <input type="text" id="symbols" class="symbol" disabled>
+                </span>
+                <span>
+                    <input type="text" id="min_number" class="number" disabled>
+                </span>
+                <span class="symbol">=</span>
+                <span>
+                    <input type="text" id="answer" class="number">
+                </span>
+            </div>
+        </section>
+        <section>
+            <div>
+                <button id="answer_btn" type="button">こたえは？</button>
+            </div>
+            <div>
+                <button id="next_btn" type="button" disabled>つぎへ！</button>
+            </div>
+        </section>
+</main>
+
+    <footer>
+        <script type="text/javascript" src="index.js" defer></script>
+        <!-- <script type="module" src="../../portfolio/calc/calculate.js"></script>
+        <script type="modelue" src="index.js"></script>
+        <script type="module" src="../../portfolio/calc/calculate.js"></script>
+    </footer> -->
+</body>
+</html>

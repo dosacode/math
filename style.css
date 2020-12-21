@@ -1,0 +1,16 @@
+.number {
+    width: 200px;
+    height: 200px;
+}
+
+.symbol {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    font-size: 100px;
+}
+
+dialog {
+    width: 300px;
+    height: 300px;
+}
